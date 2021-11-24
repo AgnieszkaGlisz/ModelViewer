@@ -8,9 +8,9 @@
 <body style='margin : 0px; overflow: hidden;'>
 
     <model-viewer
-              src="./XMas_Flint_01.glb"
-              ios-src="./XMas_Flint_01.usdz"
-              alt="A 3D model of an DamagedHelmet"
+              src="./models/XMas_Flint_01.glb"
+              ios-src="./models/XMas_Flint_01.usdz"
+              alt="Christmas tree"
               camera-controls shadow-intensity="1"
               exposure="1"
               ar-modes="scene-viewer webxr quick-look"
@@ -18,8 +18,13 @@
               auto-rotate
               camera-controls>
               <!--autoplay animation-name="horse_A_"-->
-              <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
-                👋 Activate AR
+              <button slot="ar-button" 
+              style="background-image: url(./images/ic_view_in_ar_new_googblue_48dp.png);
+              border-radius: 4px; 
+              border: none; 
+              position: absolute; 
+              top: 100%;
+              ">
             </button>
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
