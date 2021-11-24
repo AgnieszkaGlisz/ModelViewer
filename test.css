@@ -1,7 +1,9 @@
 #ar-button{
   background-image: url(./images/ic_view_in_ar_new_googblue_48dp.png);
     left: 100%;
-    bottom: 2%;
+    top: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 model-viewer {
